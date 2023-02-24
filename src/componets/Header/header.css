@@ -1,0 +1,41 @@
+.header {
+  max-width: 956px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: aquamarine;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.header-home-icon {
+  max-width: 40px;
+  width: 100%;
+}
+.header-user-auth-icon {
+  max-width: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+.header-user-auth-btn {
+  height: 30px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  background-color: #3affbc;
+  padding: 1px 20px;
+  cursor: pointer;
+}
+.header-user-auth {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
